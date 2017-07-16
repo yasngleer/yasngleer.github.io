@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>#Yasin Güler#</title>
+    <link>https://yasngleer.github.io/</link>
+    <description>Recent content on #Yasin Güler#</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jul 2017 15:30:41 +0200</lastBuildDate>
+    
+	<atom:link href="https://yasngleer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python ile Orange Pi İr Kullanımı</title>
+      <link>https://yasngleer.github.io/post/opir3/</link>
+      <pubDate>Sat, 15 Jul 2017 15:30:41 +0200</pubDate>
+      
+      <guid>https://yasngleer.github.io/post/opir3/</guid>
+      <description>sunxi_cir modülünü yüklüyoruz. modprobe sunxi_cir  Aşağıdaki komut ile ir alıcımızı test edebiliriz.
+mode2 -d /dev/lirc0  Kumandamızı ir alıcısna doğru yöneltip tuşlara bastığımızda aşağıdaki gibi bir çıktı alıyorsak ir alıcısı çalışıyor demektir.
+space 16777215 pulse 9008 space 4480 pulse 608 space 552 pulse 584  sunxi_cir modülünün her açılışta otomatik olarak yüklenmesi için /etc/lirc/hardware.conf dosyasının içindekileri silip aşağıdakileri yapıştırın.
+REMOTE_MODULES=&amp;quot;sunxi_cir&amp;quot; REMOTE_DEVICE=&amp;quot;/dev/lirc0&amp;quot; REMOTE_LIRCD_CONF=&amp;quot;&amp;quot; REMOTE_LIRCD_ARGS=&amp;quot;&amp;quot; #Enable lircd START_LIRCD=&amp;quot;true&amp;quot; #Try to load appropriate kernel modules LOAD_MODULES=&amp;quot;true&amp;quot; DRIVER=&amp;quot;default&amp;quot; DEVICE=&amp;quot;/dev/lirc0&amp;quot; MODULES=&amp;quot;sunxi-cir&amp;quot; # Default configuration files for your hardware if any LIRCMD_CONF=&amp;quot;&amp;quot; #to leave this set to &amp;quot;false&amp;quot; FORCE_NONINTERACTIVE_RECONFIGURATION=&amp;quot;false&amp;quot; START_LIRCMD=&amp;quot;&amp;quot;  Artık kumandamızın tuşlarına isim atayabiliriz.</description>
+    </item>
+    
+  </channel>
+</rss>
