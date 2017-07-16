@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yasngleer.github.io/post/opir3/</loc>
+    <loc>https://yasngleer.github.io/post/opir3.html</loc>
     <lastmod>2017-07-15T15:30:41+02:00</lastmod>
   </url>
   
@@ -14,18 +14,18 @@
   </url>
   
   <url>
-    <loc>https://yasngleer.github.io/categories/</loc>
+    <loc>https://yasngleer.github.io/categories.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yasngleer.github.io/post/</loc>
+    <loc>https://yasngleer.github.io/post.html</loc>
     <lastmod>2017-07-15T15:30:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yasngleer.github.io/tags/</loc>
+    <loc>https://yasngleer.github.io/tags.html</loc>
     <priority>0</priority>
   </url>
   
