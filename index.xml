@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Orange Pi İr Kullanımı</title>
-      <link>https://yasngleer.github.io/post/opir/</link>
+      <title>Python ile Orange Pi İr Kullanımı</title>
+      <link>https://yasngleer.github.io/post/opir3/</link>
       <pubDate>Sat, 15 Jul 2017 15:30:41 +0200</pubDate>
       
-      <guid>https://yasngleer.github.io/post/opir/</guid>
+      <guid>https://yasngleer.github.io/post/opir3/</guid>
       <description>sunxi_cir modülünü yüklüyoruz. modprobe sunxi_cir  Aşağıdaki komut ile ir alıcımızı test edebiliriz.
 mode2 -d /dev/lirc0  Kumandamızı ir alıcısna doğru yöneltip tuşlara bastığımızda aşağıdaki gibi bir çıktı alıyorsak ir alıcısı çalışıyor demektir.
 space 16777215 pulse 9008 space 4480 pulse 608 space 552 pulse 584  sunxi_cir modülünün her açılışta otomatik olarak yüklenmesi için /etc/lirc/hardware.conf dosyasının içindekileri silip aşağıdakileri yapıştırın.
