@@ -12,13 +12,13 @@ div{
 }
 pink {
     color: #F92672 !important;
-    font-size: 150%;
+    font-size: 1em;
 
 }
 bslk{
 	color:#F5F5F5;
 	display:inline-block;
-	font-size: 300%;
+	font-size: 1.5em;
   font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
   font-weight: normal;
 
