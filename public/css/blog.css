@@ -1,0 +1,53 @@
+pink {
+    color: #F92672 !important;
+    font-size: 150%;
+
+}
+div{
+max-width:780px;
+}
+bslk{
+	color:#F5F5F5;
+	display:inline-block;
+	font-size: 300%;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-weight: normal;
+
+}
+lnk{
+	color:#F5F5F5;
+
+}
+
+body {
+    background-color: #272822;
+}
+
+a:link {
+    color:#F5F5F5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#F5F5F5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F92672;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+	color:#F5F5F5;
+	background-color: transparent;
+    text-decoration: underline;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
